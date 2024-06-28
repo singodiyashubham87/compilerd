@@ -7,13 +7,13 @@ const Footer = () => {
         © ALL RIGHTS RESERVED
       </small>
       <div className="flex gap-4 absolute top-1/2 right-4 translate-x-[-50%] translate-y-[-50%] text-sm lg:text-xl xl:text-2xl text-primaryWhite">
-        <a href="https://github.com/kalviumcommunity/compilerd" target="_blank">
+        <a href="#">
           <FaGithub className="hover:opacity-75 cursor-pointer" />
         </a>
-        <a href="https://github.com/kalviumcommunity/compilerd" target="_blank">
+        <a href="#">
           <FaLinkedin className="hover:opacity-75 cursor-pointer" />
         </a>
-        <a href="https://github.com/kalviumcommunity/compilerd" target="_blank">
+        <a href="#">
           <FaTwitter className="hover:opacity-75 cursor-pointer" />
         </a>
       </div>

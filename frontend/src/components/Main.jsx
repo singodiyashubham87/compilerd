@@ -80,6 +80,7 @@ const Main = () => {
                 <option value="Ruby">Ruby</option>
                 <option value="Promptv1">Promptv1</option>
                 <option value="Promptv2">Promptv2</option>
+                <option value="Golang">Golang</option>
               </select>
               <button
                 className="uppercase bg-shadowBlack text-primaryWhite px-4 border-2 border-primaryWhite"

@@ -37,7 +37,6 @@ export const compileCode = async (language, code, input = undefined) => {
   }
 
   try {
-    console.log(bodyData);
     const res = await fetch(`${BASE_URL}/execute/`, {
       method: "POST",
       headers: {
@@ -47,7 +46,6 @@ export const compileCode = async (language, code, input = undefined) => {
     });
 
     const result = await res.json();
-    console.log(result);
 
     return result.output || result.compile_message || result.message;
   } catch (e) {

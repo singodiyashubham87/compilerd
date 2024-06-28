@@ -38,5 +38,10 @@ export const files = {
     name: "prompt.txt",
     language: "promptv2",
     value: "The question is what is 2 plus 2. The answer given is 4.",
+  },
+  Golang:{
+    name: "main.go",
+    language: "go",
+    value: `package main\n\nimport "fmt"\n\nfunc main() {\n\tfmt.Println("Hello World")\n}`,
   }
 };
